@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dice.chess.ui.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/10.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" styleClass="anchor2">
+    <ChessBoardWindow fx:id="boardViewer" style="-fx-background-color: black" AnchorPane.bottomAnchor="10"
+               AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
+    </ChessBoardWindow>
+</AnchorPane>

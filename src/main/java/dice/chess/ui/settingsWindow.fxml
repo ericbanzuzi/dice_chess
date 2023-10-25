@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dice.chess.ui.SettingsWindow?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+        xmlns="http://javafx.com/javafx/10.0.2" style="-fx-background: rgb(243, 225, 190)">
+    
+    <SettingsWindow style="-fx-background-color: black">
+    
+    </SettingsWindow>
+
+</BorderPane>

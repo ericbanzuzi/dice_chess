@@ -1,0 +1,62 @@
+/* Chess wallpeper - https://www.pinterest.com/pin/778489485577672030/ */
+.anchor {
+    -fx-background-image:url('File:src/main/resources/menu/wp2.jpeg');
+}
+
+/* Wood wallpeper - https://www.pixelstalk.net/wp-content/uploads/images4/Light-Dark-Wood-Background.jpg */
+.anchor2 {
+    -fx-background-image:url('File:src/main/resources/board/wood_wallpaper.jpg');
+    -fx-background-repeat: stretch;
+}
+
+/* Button Style from http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
+https://stackoverflow.com/questions/43566587/styling-javafx-checkbox/43569915 */
+.button1, .button2, .button3, .button4, .resetButton, .historyButton, .saveSettingsButton{
+    -fx-background-color:
+        #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover,
+.resetButton:hover, .historyButton:hover, .saveSettingsButton:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #b6eda7, #9bc091);
+}
+
+.button1:pressed, .button2:pressed, .button3:pressed, .button4:pressed,
+.resetButton:pressed, .historyButton:pressed, .saveSettingsButton:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.text1 {
+    -fx-font-family: "Copperplate", fantasy;
+    -fx-font-size: 30px;
+}
+
+.checkBox .box {
+    -fx-background-color: white;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+}
+
+.checkBox:selected .mark {
+    -fx-background-color: white;
+}
+
+.checkBox:selected .box {
+    -fx-background-color: #28a3f4;
+}
+
+.borderPaneTakenPieces {
+    -fx-effect: dropshadow(gaussian, aquamarine, 40, 0, 0, 0);
+    -fx-background-insets: 50;
+}

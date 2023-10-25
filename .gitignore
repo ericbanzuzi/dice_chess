@@ -1,0 +1,8 @@
+# Default ignored files
+/.idea
+/target
+/out
+*iml
+*.html
+# Project exclude paths
+/.gradle/
